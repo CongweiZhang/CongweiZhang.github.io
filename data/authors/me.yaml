@@ -1,0 +1,25 @@
+schema: hugoblox/author/v1
+slug: me
+is_owner: true
+name:
+  display: Congwei Zhang
+  given: Congwei
+  family: Zhang
+role: Postdoctoral Researcher
+bio: |
+  I am a postdoctoral researcher in Prof. Yang Yu's group at City University of Hong Kong. My research interests include networked systems, edge intelligence, and efficient large language model systems.
+affiliations:
+  - name: City University of Hong Kong
+    url: https://www.cityu.edu.hk/
+links:
+  - icon: academicons/google-scholar
+    url: https://scholar.google.com/citations?user=Yw_lYuEAAAAJ&hl=en
+    label: Google Scholar
+  - icon: brands/github
+    url: https://github.com/CongweiZhang
+    label: GitHub
+interests:
+  - Networked Systems
+  - Edge Intelligence
+  - Efficient LLM Systems
+  - Distributed Systems

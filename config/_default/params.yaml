@@ -1,0 +1,48 @@
+hugoblox:
+  schema: "2.0"
+  identity:
+    name: "Congwei Zhang"
+    type: person
+    tagline: "Postdoctoral Researcher · City University of Hong Kong"
+    description: "Research on networked systems, edge intelligence, and efficient large language model systems."
+  theme:
+    mode: light
+    pack: default
+  typography:
+    pack: academic
+  layout:
+    radius: md
+    spacing: spacious
+    avatar_shape: circle
+  header:
+    enable: true
+    style: navbar
+    sticky: true
+    align: center
+    search: false
+    theme_toggle: true
+    theme_picker: false
+    language_switcher: false
+  footer:
+    style: minimal
+    text: "Built with Hugo and HugoBlox."
+  copyright:
+    notice: "© {year} {name}"
+    license:
+      type: custom
+  search:
+    enable: false
+  comments:
+    enable: false
+  content:
+    math:
+      enable: false
+    toc:
+      enable: false
+    reading_time:
+      enable: false
+  repository:
+    enable: true
+    url: "https://github.com/CongweiZhang/CongweiZhang.github.io"
+    branch: main
+    content_dir: content

@@ -1,5 +1,5 @@
 # Congwei Zhang — Academic Homepage
 
-This repository will host the academic homepage at https://congweizhang.github.io/.
+Source repository for [congweizhang.github.io](https://congweizhang.github.io/).
 
-The website is being developed in a feature branch; please review the pull request before publishing.
+Built with Hugo and HugoBlox; deployed using GitHub Pages. See the content folders for publication, project, and news maintenance.

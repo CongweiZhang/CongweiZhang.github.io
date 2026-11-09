@@ -1,0 +1,13 @@
+title: "Congwei Zhang"
+baseURL: "https://congweizhang.github.io/"
+defaultContentLanguage: en
+hasCJKLanguage: true
+enableRobotsTXT: true
+enableEmoji: true
+summaryLength: 35
+pagination:
+  pagerSize: 20
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
