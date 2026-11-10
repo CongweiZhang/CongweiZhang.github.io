@@ -1,0 +1,25 @@
+{{ $p := . }}
+<article class="pub-card">
+  <div class="pub-art">
+    {{ with $p.cover }}<img src="{{ . | relURL }}" loading="lazy" alt="Research illustration for {{ $p.title }}">{{ else }}
+      <div class="text-cover">
+        <span class="cover-top">{{ $p.label | default "RESEARCH" }}</span>
+        <strong>{{ if eq $p.slug "crisp-2026" }}CRISP{{ else if eq $p.slug "slant-2026" }}Slant{{ else }}{{ $p.year }}{{ end }}</strong>
+        <span class="cover-bottom">{{ $p.venue }}</span>
+      </div>
+    {{ end }}
+  </div>
+  <div class="pub-body">
+    <div class="eyebrow"><span>{{ $p.venue }}</span><span class="pub-status {{ if eq $p.status "Preprint" }}preprint{{ end }}">{{ $p.status }}</span></div>
+    <h3>{{ $p.title }}</h3>
+    <p class="authors">{{ $p.authors }}</p>
+    {{ with $p.summary }}<p class="summary">{{ . }}</p>{{ end }}
+    <div class="pub-links">
+      {{ with $p.paper_url }}<a href="{{ . }}" target="_blank" rel="noopener noreferrer">Paper ↗</a>{{ end }}
+      {{ with $p.code_url }}<a href="{{ . }}" target="_blank" rel="noopener noreferrer">Code ↗</a>{{ end }}
+      {{ with $p.slides_url }}<a href="{{ . }}" target="_blank" rel="noopener noreferrer">Slides ↗</a>{{ end }}
+      {{ with $p.bib_url }}<a href="{{ . | relURL }}" download>BibTeX ↓</a>{{ end }}
+    </div>
+    {{ with $p.details }}<details class="pub-details"><summary>Read summary</summary><p>{{ . }}</p></details>{{ end }}
+  </div>
+</article>

@@ -1,0 +1,17 @@
+venue: "ACM MobiCom 2026"
+status: "Published"
+featured: true
+order: 1
+label: "Mobile Computing · MoE Systems"
+summary: >-
+  Co-designing expert pruning and runtime scheduling for efficient MoE inference
+  on memory-constrained edge servers.
+details: >-
+  CRISP exploits skewed expert-combination frequencies and asymmetric expert
+  contributions. It adapts expert widths across hot, warm, and cold combinations
+  and overlaps loading with computation. Evaluations report up to 2.1× higher
+  throughput at the same memory budget, with at most 3.6% accuracy loss
+  relative to full-width inference.
+links:
+  paper: "https://arxiv.org/abs/2610.37442"
+  doi: "https://doi.org/10.1145/3795866.3844472"

@@ -1,0 +1,15 @@
+venue: "arXiv 2026"
+status: "Preprint"
+featured: true
+order: 2
+label: "Networking · Microservices"
+summary: >-
+  Shaping safe traffic imbalance to improve resource efficiency and autoscaling
+  behavior in microservice systems.
+details: >-
+  Slant profiles per-service capacity and uses imbalance-aware routing to
+  establish hot and cold pods while respecting safety margins. Experiments
+  across three microservice benchmarks report up to 26% fewer allocated CPU
+  cores and up to 18% lower P99 latency compared with Round-Robin.
+links:
+  paper: "https://arxiv.org/abs/2610.38778"

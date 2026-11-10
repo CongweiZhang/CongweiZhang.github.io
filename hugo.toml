@@ -1,0 +1,20 @@
+baseURL = "https://congweizhang.github.io/"
+languageCode = "en-us"
+title = "Congwei Zhang | Research"
+enableRobotsTXT = true
+disableKinds = ["taxonomy", "term"]
+summaryLength = 35
+
+[params]
+  name = "Congwei Zhang"
+  name_zh = "张琮伟"
+  role = "Postdoctoral Researcher"
+  institution = "City University of Hong Kong"
+  affiliation = "Yu Yang's Research Group"
+  scholar = "https://scholar.google.com/citations?user=Yw_lYuEAAAAJ&hl=en"
+  github = "https://github.com/CongweiZhang"
+  email = "xczhw@mail.sdu.edu.cn"
+  description = "Congwei Zhang researches networked systems, edge intelligence, and efficient large language model systems."
+
+[markup.goldmark.renderer]
+  unsafe = false
